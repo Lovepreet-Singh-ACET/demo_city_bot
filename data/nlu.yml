@@ -130,13 +130,6 @@ nlu:
     - How much do classes cost?
     - How much does a class cost?
 
-- intent: Utah-Adult-Ed-Bot-Planning/Is-it-free?
-  examples: |
-    - Is internet not free?
-    - Is mashup free?
-    - Is it free?
-    - Is it free?
-    - Is it free to use?
 
 - intent: Utah-Adult-Ed-Bot-Planning/How-much-is-the-tuition?
   examples: |

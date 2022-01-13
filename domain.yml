@@ -45,9 +45,6 @@ responses:
   utter_Utah-Adult-Ed-Bot-Planning/How-much-do-classes-cost?:
   - text: Fees and tuition vary by program. The most you will ever be charged is $100 per year. If you have a concern about the cost of the program, you can request a fee waiver.
 
-  utter_Utah-Adult-Ed-Bot-Planning/Is-it-free?:
-  - text: Fees and tuition vary by program. The most you will ever be charged is $100 per year. If you have a concern about the cost of the program, you can request a fee waiver.
-
   utter_Utah-Adult-Ed-Bot-Planning/How-much-is-the-tuition?:
   - text: Fees and tuition vary by program. The most you will ever be charged is $100 per year. If you have a concern about the cost of the program, you can request a fee waiver.
 
