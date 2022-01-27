@@ -30,6 +30,10 @@ pipeline:
     epochs: 100
     retrieval_intent: Utah-Adult-Ed-Bot-Planning 
 
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-utah-adult-b1
+
   - name: FallbackClassifier
     threshold: 0.75
     ambiguity_threshold : 0.1

@@ -466,3 +466,448 @@ nlu:
     - What is the difference between a high school diploma and a GED?
     - What is the difference between a high school diploma and a GED?
     - What's the difference between GED and high school diploma?
+
+
+# ---------------------------------------------------------------------------------------
+- intent: faq-utah-adult-b1/How-old-do-I-have-to-be-to-enroll-in-Adult-Education
+  examples: |
+    - How old do I have to be to enroll in Adult Education?
+    - Is it too late to start adult education at 18?
+    - How old do you have to be to enroll in adult education?
+    - Is 18 too old to attend adult education?
+    - How old do I have to be to do adult education?
+    - How old should I be to enroll in adult education?
+    - How old do I need to be to enroll in Adult Education?
+    - How old does it take to enroll in adult education?
+- intent: faq-utah-adult-b1/Do-I-have-to-live-in-Utah
+  examples: |
+    - Do I have to live in Utah?
+    - Do I need to live in Utah?
+    - Is it necessary to live in Utah?
+    - Do you have to live in Utah?
+    - Do we have to live in Utah?
+    - Is it required to live in Utah?
+    - Does someone have to live in Utah?
+    - Is Utah not a good enough state to live in?
+- intent: faq-utah-adult-b1/Do-I-have-to-give-my-SSN-How-is-my-SSN-used-Why-do-you-want-my-SSN
+  examples: |
+    - Do I have to give my SSN? How is my SSN used? Why do you want my SSN?
+    - Why do you want your SSN?
+    - Do I have to give my SSN to my employers?
+    - Why do you want me to give my SSN?
+    - How is my SSN used? Why do you want my SSN?
+    - When do we need our SSN? Why do you want my SSN?
+- intent: faq-utah-adult-b1/Where-can-I-take-a-class
+  examples: |
+    - Where can I take a class?
+    - What are some good places to take a class?
+    - What is the best way to take a class?
+    - How can I get into a college teaching class?
+    - Where can I take classes?
+    - What is the best way to do an online class?
+    - How can I take a class in school?
+- intent: faq-utah-adult-b1/Where-can-I-take-the-GED-test
+  examples: |
+    - Where can I take the GED test?
+    - Which one can take the GED test?
+    - What are the best places to go to take GED?
+    - How do I take the GED test?
+    - What is the best way to take the GED test?
+    - What is the best site to take the GED test?
+    - Where can I get a GED test kit?
+- intent: faq-utah-adult-b1/How-much-do-classes-cost-Is-it-free-How-much-is-the-tuition
+  examples: |
+    - How much do classes cost? Is it free? How much is the tuition?
+    - How much do classes cost?
+    - What does a class cost?
+    - How much does tuition cover? Is the course free?
+    - How much do a introductory class cost?
+    - What is the cost of taking classes and tuition?
+    - What is the tuition rate? Is it free?
+    - How much do classes cost? Is it free?
+    - How much does a class cost? Is the class free or is tuition high?
+    - How much does it cost to take classes at the institute?
+- intent: faq-utah-adult-b1/Why-do-I-have-to-take-a-test
+  examples: |
+    - Why do I have to take a test?
+    - Why do we need to take tests?
+    - How do you take a test?
+    - Why do I need to take a test?
+    - Why do people have to take tests?
+    - Why do we need to take a test?
+    - Why should I have to take a test?
+    - How can I take a test?
+- intent: faq-utah-adult-b1/What-am-I-going-to-be-tested-on
+  examples: |
+    - What am I going to be tested on?
+    - Which areas am I going to be tested on?
+    - What am I going to be tested on?
+    - Where am I going to be tested?
+    - If I go for a test what am I going to be tested on?
+- intent: faq-utah-adult-b1/Is-there-a-set-schedule-Are-there-evening-classes-Do-I-have-to-come-at-the-same-time-every-day
+  examples: |
+    - Is there a set schedule? Are there evening classes? Do I have to come at the same time every day?
+    - Is there a set schedule for evening classes?
+    - Are there evening classes? Is there a set schedule?
+    - Is there a set time? Are there evening classes? Should I be in the same class every day or not?
+    - Is there a set schedule?
+    - Is there a set schedule? Are there evening classes?
+    - What should I do if I don't have time to attend class every day?
+    - Do the evening classes have to be done the same time for the day?
+- intent: faq-utah-adult-b1/How-soon-could-I-graduate
+  examples: |
+    - How soon could I graduate?
+    - How soon can I graduate from college?
+    - How soon should I graduate?
+    - How soon am I going to graduate?
+    - How soon should a person graduate?
+    - How soon could I get into graduate school?
+    - When should I graduate?
+    - How soon can I graduate?
+    - What is the best time to graduate?
+    - How soon would you think I should graduate?
+- intent: faq-utah-adult-b1/How-long-are-the-classes
+  examples: |
+    - How long are the classes?
+    - What are the most useful classes to learn?
+    - How long are the class?
+    - How long is the class?
+    - How long are classes?
+    - How long is the course?
+    - What is the length of classes?
+- intent: faq-utah-adult-b1/Can-I-take-classes-from-homeonline-Can-I-do-packets
+  examples: |
+    - Can I take classes from home/online? Can I do packets?
+    - Can I take classes online and offline?
+    - Can I take classes at home/online?
+    - Can I take online classes from home or online?
+    - How can I take classes from home online?
+    - Can I take online classes from home?
+    - Is it possible to take classes online or from home?
+    - How can I take classes online?
+    - Can I take online class from home?
+    - How do I book class online?
+    - I can take online classes, which are offered through a packet?
+- intent: faq-utah-adult-b1/How-do-I-get-my-GED-transcript
+  examples: |
+    - How do I get my GED® transcript?
+    - How can I get transcript of GED®?
+    - How do I get GED transcript?
+    - How do I get my transcript of GED?
+    - How do I get a transcript for a GED®?
+    - How can I get transcript for GED®?
+    - How do I get transcript for GED?
+    - What are the best ways to get transcript for GED®?
+    - How do I get transcript for GED®?
+    - How can I get transcript from GED®?
+    - How can I get my GED transcripts?
+- intent: faq-utah-adult-b1/How-do-I-verify-a-GED-for-an-employee
+  examples: |
+    - How do I verify a GED® for an employee?
+    - What is the best way to verify GED® for an employee?
+    - How can I verify the GED® status of an employee?
+    - How do I verify GED® verification for employees?
+    - How do I verify employee GED® status?
+    - How do I verify GED® credential?
+    - How can I verify my GED® status?
+    - How do I verify GED® credentials online?
+    - How do I verify a GED®?
+    - How can I verify a GED®?
+    - How can I verify a GED® of an employee?
+- intent: faq-utah-adult-b1/GED-Verification
+  examples: |
+    - GED® Verification?
+    - How do I get the GED Verification?
+    - What is a GED® verification?
+    - How does GED® verification work?
+    - How do I know if I can get a GED® verification?
+    - What are the GED® verifications?
+    - Does GED® Verification do anything?
+    - What is GED® verification?
+- intent: faq-utah-adult-b1/How-long-is-the-GED-test
+  examples: |
+    - How long is the GED® test?
+    - How long is GED® test?
+    - How long does it take for GED® test?
+    - How many days of GED® preparing takes?
+    - How long does GED test last?
+    - How long should a GED® test take?
+    - How long does a GED® test take?
+    - How long does the GED test take?
+    - How long is the GED test?
+- intent: faq-utah-adult-b1/Do-I-have-to-take-the-GED-Ready-a-practice-test-before-I-can-test-for-real
+  examples: |
+    - Do I have to take the GED® Ready (a practice test) before I can test for real?
+    - Do I have to take the GED® Ready (Practice Test) before I can test in real?
+    - Do I have to take GED® ready (a practice test) before I can test for real?
+    - Do I have to take the GED prep tests for real exams?
+    - Do I have to take the GED® ready (practice test) first to get the real test?
+    - Is there any requirement to take the GED Ready Test before using it for real exams?
+    - Do I need to take GED preparation practice test to test for real?
+    - Do I have to take the GED preparation test first before I can test for real?
+    - Do I have to take the GED Ready (Practical Test) before I can test for real?
+    - Do I have to take the GED Ready test to test for real?
+- intent: faq-utah-adult-b1/My-sondaughter-wants-to-take-the-GED
+  examples: |
+    - My son/daughter wants to take the GED®?
+    - What should I do if my son want to take the GED?
+    - What is the GED process my son wants to take it?
+    - What should my daughter study to take GED?
+    - my kid wants to take GED®?
+    - What's the process to get your child into the GED®?
+    - My son/daughter wants to go to the GED®?
+- intent: faq-utah-adult-b1/Im-getting-a-flagerroralert-when-I-try-to-schedule-my-GED
+  examples: |
+    - I’m getting a flag/error/alert when I try to schedule my GED®?
+    - When I try to schedule my GED® Exam, I get a flag, error, alarm
+    - Why does it throw an error when scheduling my GED® exams?
+    - How do I get my GED® scheduled i am getting error?
+    - How do I schedule GED® as i am getting an error while scheduling it?
+    - If I was going to schedule my GED® exam and get an error, what should I do?
+    - How do I schedule my GED?
+    - When I try to schedule my GED® exam I am getting an error message?
+- intent: faq-utah-adult-b1/Can-I-take-the-GED-if-Im-still-in-high-school
+  examples: |
+    - Can I take the GED® if I’m still in high school?
+    - Can I take GED® if I’m in high school?
+    - Can I take the GED® after high school?
+    - Can I take GED® if I'm still in high school?
+    - Can I take the GED® if I'm in high school?
+    - should I take GED if I am still in high school?
+    - Can I still get the GED while still in high school?
+    - Can I take the GED® if I’m still in high school?
+    - Can I take the GED® even when I’m still in high school?
+    - I am in high school. Can I take the GED®?
+    - Can I take the GED after high school?
+- intent: faq-utah-adult-b1/How-old-do-you-have-to-be-to-take-the-GED
+  examples: |
+    - How old do you have to be to take the GED®?
+    - How old does one have to be to take GED®?
+    - How old do I have to be to take the GED®?
+    - How old do you need to be to take GED?
+    - How old do I have to be to take GED®?
+    - How old do I need to be to take the GED®?
+    - How old do I need to be to take the GED?
+- intent: faq-utah-adult-b1/Im-16-and-want-to-take-the-GED-What-do-I-have-to-do
+  examples: |
+    - I’m 16 and want to take the GED®. What do I have to do?
+    - How do I study for the GED® at 16?
+    - How can I take my GED®?
+    - I want to go to college at 16 and want to get a GED®. What should I do?
+    - I’m 16 and want to take the GED. What do I have to do?
+    - I am 18. I want to take the GED®. What do I have to do?
+    - What steps do I take to qualify for the GED?
+    - I'm 16 and want to get my GED. What do I need to do?
+- intent: faq-utah-adult-b1/Im-17-and-want-to-take-the-GED-What-do-I-have-to-do
+  examples: |
+    - I’m 17 and want to take the GED®. What do I have to do?
+    - I want to be an intern at GED®. What do I have to do?
+    - I'm 17 and want to take the GED. What should I do?
+    - I'm 17 and want to take the GED. What do I need to do to get it done?
+    - What is the exam for GED®?
+    - I’m 17 and want to take the GED®. What do I have to do?
+    - I want to study for GED. I’m 17 and want to have my diploma. What do I have to do?
+    - What should I do if I want to get into the GED (gae)?
+- intent: faq-utah-adult-b1/My-class-hasnt-graduated-yet-What-do-I-need-to-do-to-take-the-GED
+  examples: |
+    - My class hasn’t graduated yet. What do I need to do to take the GED®?
+    - How can I get into the GED®?
+    - My class hasn’t graduated yet. What do I need to do to get the GED®?
+    - What are some of the steps that a GED student should take if they've not graduated yet?
+    - i have not graduated yet can i take GED
+    - is it possible to take GED without graduation
+- intent: faq-utah-adult-b1/Whats-the-difference-between-a-GED-and-a-high-school-diploma
+  examples: |
+    - What’s the difference between a GED® and a high school diploma?
+    - What's the difference between a GED and a diploma?
+    - How is a high school diploma different from a GED®?
+    - What is the difference between a GED® and a high school diploma?
+    - What's the difference between a high school diploma and a GED®?
+    - How is the difference between a GED® and a high school diploma?
+    - What's the difference between a high school diploma and the GED?
+    - What is the difference between GED and diploma?
+    - What are the differences between GED and diploma?
+    - What's the difference between high school diploma and GED?
+    - What are the differences between a GED® and a high school diploma?
+- intent: faq-utah-adult-b1/If-I-get-my-GED-can-I-go-back-to-walk-with-my-class
+  examples: |
+    - If I get my GED®, can I go back to walk with my class?
+    - Can I go back to my class to walk if i clear my GED®?
+    - When I get my GED, can I go back and walk with the class?
+    - Will I go back to my college classes after I got my GED®?
+    - When I get my GED can I go back to class again?
+    - I got my GED®, can I walk with my class if I have had the opportunity?
+
+
+- intent: faq-utah-adult-b1/Can-I-get-into-college-with-a-GED
+  examples: |
+    - Can I get into college with a GED®?
+    - How can I get into college with a GED®?
+    - How can I get into college with a GED?
+    - Is it possible to get into college with the GED?
+    - Can I get into college if I have a GED®?
+    - What are the best ways to get into college without a GED®?
+    - How can I get into college after completing a GED®?
+- intent: faq-utah-adult-b1/Can-I-go-into-the-military-with-a-GED
+  examples: |
+    - Can I go into the military with a GED®?
+    - How can I go into the military with a GED®?
+    - How can I go into the Army with a GED?
+    - Can I go to the military with GED®?
+    - How do I go to the Military with a GED®?
+    - Can I enter the military with a GED®?
+    - How do I get into the military if I already have a GED®?
+    - What would it take to go into the Army with GED®?
+    - I am 18 years old, what are the best ways to go into the military with a GED®?
+    - Can I go into the military with a GED?
+- intent: faq-utah-adult-b1/Do-I-get-a-diploma-when-I-pass-the-GED
+  examples: |
+    - Do I get a diploma when I pass the GED®?
+    - What diploma should I get after passing the GED?
+    - Is there a way to get a diploma after passing the GED?
+    - What are the methods of a diploma after passing the GED®?
+    - How do I get diploma after GED?
+    - Do I get a diploma if I pass the GED?
+    - How do I get a diploma in GED?
+    - When I pass the GED®, do I get a diploma?
+    - What diploma does GED mean?
+- intent: faq-utah-adult-b1/How-many-retakes-do-you-get
+  examples: |
+    - How many retakes do you get?
+    - How many retakes is one going to get?
+    - How many retakes are there for taking GED?
+    - How many retakes do I have?
+    - How many retakes can you get?
+    - How many retakes are you allowed for taking GED?
+- intent: faq-utah-adult-b1/I-took-my-GED-prior-to-2014-Do-I-have-to-start-over
+  examples: |
+    - I took my GED® prior to 2014. Do I have to start over?
+    - Should I start over with my GED® prior to 2014?
+    - Should I start over with my GED® program?
+    - Will I be forced to start over on the GED® course I took in 2014?
+    - How do I finish GED® with my GED® from 2014?
+    - I took my GED® prior to 2014. Should I start over?
+- intent: faq-utah-adult-b1/Do-GED-tests-expire
+  examples: |
+    - Do GED® tests expire?
+    - Is GED® testing valid?
+    - How long does GED® test expire?
+    - Is GED® testing expired?
+    - Does the GED® test expire?
+    - Do GED® test expire?
+    - Do GED® tests expire after six months?
+    - Is the GED® test expired?
+    - Can we get the GED test now?
+- intent: faq-utah-adult-b1/How-many-credits-do-you-need-to-graduate-in-adult-education
+  examples: |
+    - How many credits do you need to graduate in adult education?
+    - Can i get credit for work experience?
+    - How do I get credit for work experience?
+    - creadits required to graduate in adult education program
+    - how many credits do I need to adult education program
+- intent: faq-utah-adult-b1/Can-I-use-college-military-experience-toward-my-diploma
+  examples: |
+    - Can I use college military experience toward my diploma?
+    - I am a military student, can I use my military experience toward my diploma?
+    - Can I use the military experience to get a diploma?
+    - How can I use my military experience toward my diploma?
+    - Can I use military experience toward my diploma?
+    - Can I use college military service experience toward my diploma?
+    - How can I use military training to earn diploma?
+    - How do I use college military experiences towards my diploma?
+- intent: faq-utah-adult-b1/Can-I-use-college-credit-experience-toward-my-diploma
+  examples: |
+    - Can I use college credit experience toward my diploma?
+    - College credit in college could go towards a diploma?
+    - Can I use college credit towards my diploma?
+    - Can I use my college credit history towards my diploma?
+    - Can you use college credit towards your diploma?
+    - Can I use college credit experiences to transfer my diploma?
+    - Is it legal to use college credit credit towards a diploma?
+    - Can I use college credit toward my diploma?
+- intent: faq-utah-adult-b1/I-have-credits-How-much-more-do-I-need-to-graduate
+  examples: |
+    - I have credits. How much more do I need to graduate?
+    - Do I need a graduation certificate?
+    - I have credit. How much more do I need to graduate?
+    - How much more credit do I need to graduate?
+    - How much more credit do I need to graduate from, given my past experience?
+    - What are the credits I need to graduate?
+    - How much more should I have to earn to get a degree to graduate?
+    - How much money do I need to graduate if I have 66 credits and 12 credit hours to graduate?
+    - I have credits, how much do I need to graduate?
+    - How much time would one need to graduate to have all credits?
+- intent: faq-utah-adult-b1/Do-I-need-to-bring-my-transcript
+  examples: |
+    - Do I need to bring my transcript?
+    - Do I need to bring transcript?
+    - Do you need to bring transcripts?
+    - Do you need to bring your transcript?
+    - Is it necessary to bring transcript to SSQ?
+    - How do I bring transcript to the local high school?
+    - Do I need to bring transcripts to a college?
+    - Do I have to bring a transcript of my education from a high school?
+    - Do I need transcript?
+    - Will I be required to bring transcript after graduation?
+- intent: faq-utah-adult-b1/How-do-I-get-a-copy-of-my-transcriptdiploma
+  examples: |
+    - How do I get a copy of my transcript/diploma?
+    - How can I get a copy of my transcripts or diploma?
+    - How can I get a copy of transcript?
+    - How do I get a copy of my transcript?
+    - How can I get the copy of my transcript?
+    - How do I get a copy of my transcript or diploma?
+    - What should I do to get a copy of my transcript?
+    - How do I get transcripts and documents from colleges?
+    - How do I get a copy of my transcript if I didn't know what it is?
+    - How do I get a copy of a transcript or diploma?
+- intent: faq-utah-adult-b1/Can-you-use-credits-from-my-country
+  examples: |
+    - Can you use credits from my country?
+    - Can you use money from a country other than my country?
+    - Is it possible to use credit from country to country?
+    - Can you use credit from another country?
+    - What credits can I use from other countries?
+    - Can we use credit card from my country in Canada?
+    - Can I use credits from my country?
+    - Can you use the credits from your country?
+    - Can you use credit from any country of origin if you are a person from another country?
+    - How can I use credit in my country?
+    - Can you use credits from another country?
+- intent: faq-utah-adult-b1/Can-you-verifyauthenticate-my-foreign-diploma
+  examples: |
+    - Can you verify/authenticate my foreign diploma?
+    - Can you verify/authorize my foreign diploma?
+    - How can I verify my foreign diploma?
+    - How do you verify your international diploma and certificates?
+    - Can you verify/authenticate my foreign diploma or diploma number?
+    - Can you verify my foreign diploma (diploma)?
+    - How do you verify/authenticate a foreign diploma?
+    - I have a foreign diploma, I have no country of origin. How can I verify it?
+    - How do I verify my Foreign Diploma from the USA?
+    - Can I verify my passport/diploma from a foreign country/country?
+    - How do I authenticate my foreign diploma?
+- intent: faq-utah-adult-b1/Will-these-classes-work-for-my-visa-Am-I-enrolled-in-school-for-my-F1
+  examples: |
+    - Will these classes work for my visa? Am I enrolled in school for my F-1?
+    - Will these classes work for visa? Am I enrolled in school for my F-1?
+    - Does this class work for my visa? Am I enrolled in school for my F-1?
+    - How will the classes work for the visa? Am I enrolled in school for my F1?
+    - What classes can I take to gain a visa and work towards it?
+    - I have an F1 visa, do I have any classes for it? Will they work for my visa? Am I enrolled in school for my F-1 visa?
+    - Will the class work for my visa? Am I enrolled in school for my F-1?
+    - Will my F-1 visa work? Am I enrolled in school for my F-1 visa?
+    - Are these classes valid for the visa? Am I enrolled in school for my F-1?
+    - Will these classes work for my visa? Am I enrolled in school for my F-1 visa? I hope I have enough to complete the requirements for my visa.
+    - Do these classes work for my visa? Am I enrolled in school for my F-1?
+- intent: faq-utah-adult-b1/Can-I-get-a-letter-showing-Im-enrolled-in-classes-Deferred-Action-for-Childhood-Arrivals-DACAParolees
+  examples: |
+    - Can I get a letter showing I'm enrolled in classes (Deferred Action for Childhood Arrivals (DACA)/Parolees)?
+    - How do I get a letter from DACA stating that I'm enrolled in college?
+    - Can I get a letter of admission showing that I'm enrolled in classes (Deferred Action for Childhood Arrivals (DACA)/Parolees)?
+    - How do I get a letter showing I enrolled in classes (Deferred Action for Childhood Arrivals (DACA)/Parolees)?
+    - Can I get a letter from my school proving I am enrolled in classes (deferred action for childhood arrivals (DACA)/Parolees)?
+    - Can I get a letter from DHCA to say I'm enrolled in classes (Dave Foster)?
+    - How can I get a letter showing I'm in classes (Deferred Action for Childhood Arrivals (DACA)/Parolees)?
+    - How do you get a letter from school showing you are enrolled in the DACA/dcapa classes?
+    - How do I get the letter showing I'm enrolled in class (Deferred Action for Childhood Arrivals (DACA)/Parolees)?

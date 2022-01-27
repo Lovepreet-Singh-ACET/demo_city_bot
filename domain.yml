@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - Utah-Adult-Ed-Bot-Planning
+  - faq-utah-adult-b1
 
 responses:
   utter_greet:
@@ -170,6 +171,95 @@ responses:
 
   utter_Utah-Adult-Ed-Bot-Planning/What’s-the-difference-between-a-GED-and-a-high-school-diploma?:
   - text: Unsure if we can add this. I do not know how to word the reply back to the question
+
+  utter_faq-utah-adult-b1/How-old-do-I-have-to-be-to-enroll-in-Adult-Education: 
+  - text: Anyone over the age of 16 is welcome in adult education.
+  utter_faq-utah-adult-b1/Do-I-have-to-live-in-Utah: 
+  - text: Yes, but we can make exceptions for individuals who live in communities near the Utah border.
+  utter_faq-utah-adult-b1/Do-I-have-to-give-my-SSN-How-is-my-SSN-used-Why-do-you-want-my-SSN: 
+  - text: Our biggest goal is to help students be successful beyond their time in adult education! We work with the Department of Workforce Services (DWS) and the higher education system to do a data match to see what percentage of students go on to college or better jobs after graduation.
+  utter_faq-utah-adult-b1/Where-can-I-take-a-class: 
+  - text: Adult Education classes are offered throughout the state (Refer to Directory of Utah Adult Education Programs 2021-2022).
+  utter_faq-utah-adult-b1/Where-can-I-take-the-GED-test: 
+  - text: GED Testing sites are located all over Utah (Refer to Where to Take the GED® Test in Utah).
+  utter_faq-utah-adult-b1/How-much-do-classes-cost-Is-it-free-How-much-is-the-tuition: 
+  - text: Fees and tuition vary by program. The most you will ever be charged is $100 per year. If you have a concern about the cost of the program, you can request a fee waiver.
+  utter_faq-utah-adult-b1/Why-do-I-have-to-take-a-test: 
+  - text: Students in adult education often have gaps in their learning. Doing testing at the beginning of the program helps us understand your needs and design the best plan for you. We also test periodically throughout your enrollment to measure your progress and make sure the plan is effective.
+  utter_faq-utah-adult-b1/What-am-I-going-to-be-tested-on: 
+  - text: Students working toward a high school diploma or GED® will be assessed in Mathematics and Language Arts. Students in English Language classes will be tested on their skills in speaking, listening, reading, and writing in English.
+  utter_faq-utah-adult-b1/Is-there-a-set-schedule-Are-there-evening-classes-Do-I-have-to-come-at-the-same-time-every-day: 
+  - text: The hours vary but site, but all programs have flexible scheduling options designed for busy adults. Please reach out to the site nearest you for more information about their hours (Refer to Directory of Utah Adult Education Programs 2021-2022).
+  utter_faq-utah-adult-b1/How-soon-could-I-graduate: 
+  - text: Everyone’s needs are different. Our goal is to provide an individualized plan to help you reach your goals. Please reach out to a program in your area for an appointment with a counselor who can review your transcripts and help you develop a graduation plan (Refer to Directory of Utah Adult Education Programs 2021-2022).
+  utter_faq-utah-adult-b1/How-long-are-the-classes: 
+  - text: This can vary by program site. Please reach out to a program in your area for an appointment with a counselor who can review your transcripts and help you develop a graduation plan (Refer to Directory of Utah Adult Education Programs 2021-2022).
+  utter_faq-utah-adult-b1/Can-I-take-classes-from-homeonline-Can-I-do-packets: 
+  - text: We do our best to offer a variety of options, including some independent study options. You would need to participate in an orientation on-site while we get to know you, including your needs and goals, and set up a learning plan for you before starting distance learning.
+  utter_faq-utah-adult-b1/How-do-I-get-my-GED-transcript: 
+  - text: Transcripts can be obtained by going to the GED® Testing Service website (Refer to Grads and Transcripts Request Transcripts). Most transcript orders take approximately 1-2 days but may take up to 2 weeks to process and mail out. Please allow sufficient time for processing and shipping. Prior to placing an order, you should confirm that you have the correct recipient/administrator and school address if you are sending the transcript directly to a school.
+  utter_faq-utah-adult-b1/How-do-I-verify-a-GED-for-an-employee: 
+  - text: GED® verifications can be obtained for an employee on the GED® Testing Service website (Refer to Grads and Transcripts Request Transcripts) and selecting the Third Parties option.
+  utter_faq-utah-adult-b1/GED-Verification: 
+  - text: GED® verifications can be obtained by going to the GED Testing Service website (Refer to Grads and Transcripts Request Transcripts).
+  utter_faq-utah-adult-b1/How-long-is-the-GED-test: 
+  - text: There are four subject tests on the GED®. The total time to take all four tests is 7 hours and 5 minutes. It is possible to take all of the tests in one day, but most students don’t. Usually students break the tests up into one or two tests at a time. (Mathematical Reasoning test takes 115 minutes, Reasoning Through Language Arts test takes 150 minutes, Social Studies test takes 90 minutes, and Science test takes 90 minutes).
+  utter_faq-utah-adult-b1/Do-I-have-to-take-the-GED-Ready-a-practice-test-before-I-can-test-for-real: 
+  - text: If you take the GED® test in-person at a testing site, you do not need to take the GED® Ready. If you are planning to take the GED® online, you will be required to take and pass the GED® Ready test first.
+  utter_faq-utah-adult-b1/My-sondaughter-wants-to-take-the-GED: 
+  - text: First your student will need to create a GED® account and obtain a government issued photo identification. If your student is 18 years of age or younger and their class has not graduated from high school, they will also need to complete the High School Equivalency (HSE) Candidate and Adult Education Eligibility form. This form can be obtained from the school counselor at the high school your student would be attending. The completed form then needs to be submitted to the nearest program (Refer to Directory of Utah Adult Education Programs 2021-2022). If they need help preparing for the GED®, they can also sign up for GED® preparation courses at the same time. Students 16-year-older also need to show academic readiness to take the GED®. This is often done through passing a GED® Ready test and submitting the passing scores to the nearest adult education program. Once your student submits the completed form to the nearest adult education program, they will be able to schedule their test.
+  utter_faq-utah-adult-b1/Im-getting-a-flagerroralert-when-I-try-to-schedule-my-GED: 
+  - text: If you are 18 years of age or younger and your class has not graduated from high school you will need to complete an HSE Candidate and Adult Education Eligibility form. The form can be obtained from the school counselor at the high school you would be attending. The completed form should be submitted to the nearest program (Refer to Directory of Utah Adult Education Programs 2021-2022). If you are 16 years of age, you will also need to submit proof of academic readiness to take the GED®. This is often a copy of passing GED® Ready scores. If you are 18 years of age or older and your class has graduated from high school, you can contact the Utah State Board of Education at (801) 538-7509 to clear the flag/error/alert.
+  utter_faq-utah-adult-b1/Can-I-take-the-GED-if-Im-still-in-high-school: 
+  - text: Students cannot be currently enrolled in a K-12 school when they take the GED®.
+  utter_faq-utah-adult-b1/How-old-do-you-have-to-be-to-take-the-GED: 
+  - text: Students must be at least 16 years of age to take the GED®.
+  utter_faq-utah-adult-b1/Im-16-and-want-to-take-the-GED-What-do-I-have-to-do: 
+  - text: First, create a GED® account. Then, you must withdraw from high school and complete the HSE Candidate and Adult Education Eligibility form, which can be obtained through your high school counselor. You must also show academic readiness to take the GED®. Passing scores on the GED® Ready can be used to show academic readiness. The completed form will need to be submitted to the nearest program (Refer to Directory of Utah Adult Education Programs 2021-2022). Once the form is submitted you can schedule your GED® test.
+  utter_faq-utah-adult-b1/Im-17-and-want-to-take-the-GED-What-do-I-have-to-do: 
+  - text: First, create a GED® account. Then, you must withdraw from high school and complete the HSE Candidate and Adult Education Eligibility form, which can be obtained through your high school counselor. The completed form will need to be submitted to the nearest program (Refer to Directory of Utah Adult Education Programs 2021-2022). Once the form is submitted you can schedule your GED® test.
+  utter_faq-utah-adult-b1/My-class-hasnt-graduated-yet-What-do-I-need-to-do-to-take-the-GED: 
+  - text: First, create a GED® account. Then, you must withdraw from high school and complete the HSE Candidate and Adult Education Eligibility form, which can be obtained through your high school counselor. The completed form will need to be submitted to the nearest program (Refer to Directory of Utah Adult Education Programs 2021-2022). Once the form is submitted you can schedule your GED® test.
+  utter_faq-utah-adult-b1/Whats-the-difference-between-a-GED-and-a-high-school-diploma: 
+  - text: Completing the GED® in Utah results in receiving a Utah HSC diploma, which is considered a high school equivalency diploma. You can use it to apply to college or for a job resume, similar to a high school diploma.
+  utter_faq-utah-adult-b1/If-I-get-my-GED-can-I-go-back-to-walk-with-my-class: 
+  - text: If you complete your GED®, your high school will decide if you can walk with your class at graduation.
+  utter_faq-utah-adult-b1/Can-I-get-into-college-with-a-GED: 
+  - text: More than 98% of schools in the United States accept the GED®. If you are planning on attending college you should aim for a score of 165, which is considered college ready.
+  utter_faq-utah-adult-b1/Can-I-go-into-the-military-with-a-GED: 
+  - text: Oftentimes students can still enter the military when they earn a GED®, but talk to a recruiter to find out the current requirements of the branch of military you want to enlist in.
+  utter_faq-utah-adult-b1/Do-I-get-a-diploma-when-I-pass-the-GED: 
+  - text: You will receive a Utah HSC diploma when you pass the GED®.
+  utter_faq-utah-adult-b1/How-many-retakes-do-you-get: 
+  - text: It depends on which form of the test you take. For in-person testing at a testing center, you can take the test three times with no restrictions between retakes. For online testing, you can take the test only two times with no restrictions between retakes. After that you must wait 60 days between each attempt.
+  utter_faq-utah-adult-b1/I-took-my-GED-prior-to-2014-Do-I-have-to-start-over: 
+  - text: Results from prior versions of the GED® test do not carry over to the 2014 version. This means you will need to pass all four subject tests of the 2014 version in order to complete the GED®.
+  utter_faq-utah-adult-b1/Do-GED-tests-expire: 
+  - text: There is currently no expiration dat. e for scores from the 2014 version of the GED® test.
+  utter_faq-utah-adult-b1/How-many-credits-do-you-need-to-graduate-in-adult-education: 
+  - text: You need a minimum of 24 credits as established by the Utah State Board of Education (Refer to Graduation Requirements).
+  utter_faq-utah-adult-b1/Can-you-use-my-oldprevious-credits: 
+  - text: Yes, however depending on how long ago you attended high school, some credit requirements may have changed. Contact an adult education program near you to set up a meeting with a counselor.
+  utter_faq-utah-adult-b1/Can-I-get-credit-for-work-experience: 
+  - text: Yes! You can earn up to 4 credits in your elective or Career and Technical Education (CTE) credit requirements. You’ll earn 1 credit for every 180 hours of continuous, professional employment.
+  utter_faq-utah-adult-b1/Can-I-use-college-military-experience-toward-my-diploma: 
+  - text: Yes! You can earn a maximum 1.50 credit towards Individualized Fitness for Life or Elective credit from basic training or 1 credit for each 180 hours of other verified military training.
+  utter_faq-utah-adult-b1/Can-I-use-college-credit-experience-toward-my-diploma: 
+  - text: Yes! You can earn 1 credit for each 5 quarter-hours or 1 for each 3 semester hours in the appropriate subject area of analysis.
+  utter_faq-utah-adult-b1/I-have-credits-How-much-more-do-I-need-to-graduate: 
+  - text: You need a minimum of 24 required core credits as established by the Utah State Board of Education (Refer to Graduation Requirements) or text Programs Near Me to find an adult education program where you can set up a one on one transcript analysis.
+  utter_faq-utah-adult-b1/Do-I-need-to-bring-my-transcript: 
+  - text: Most adult education programs can request your transcript for you, however it does make your intake process go quicker if you can bring in an official copy of your transcript.
+  utter_faq-utah-adult-b1/How-do-I-get-a-copy-of-my-transcriptdiploma: 
+  - text: Contact your last attended school and ask for an official transcript. Some schools may have you go through Parchment and may require a small fee for your transcript.
+  utter_faq-utah-adult-b1/Can-you-use-credits-from-my-country: 
+  - text: If you have a translated transcript of your home country school records, some credits may be applied towards your United States diploma. Type Programs Near Me” to find an adult education program where you can set up a one of on transcript analysis.
+  utter_faq-utah-adult-b1/Can-you-verifyauthenticate-my-foreign-diploma: 
+  - text: No, adult education cannot verify/authenticate your foreign credentials. You would need to go through the United States Apostille Service (External Web Content).
+  utter_faq-utah-adult-b1/Will-these-classes-work-for-my-visa-Am-I-enrolled-in-school-for-my-F1: 
+  - text: No, adult education programs cannot be your sponsoring school for Visas, however you may attend adult education courses for extra help if you wish to do so.
+  utter_faq-utah-adult-b1/Can-I-get-a-letter-showing-Im-enrolled-in-classes-Deferred-Action-for-Childhood-Arrivals-DACAParolees: 
+  - text: Yes, adult education programs can provide you with letters and/or reports of enrollment and attendance. However, proof of attendance will need to be verified within the program.
 
 session_config:
   session_expiration_time: 60

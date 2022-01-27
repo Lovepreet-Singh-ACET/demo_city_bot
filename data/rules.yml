@@ -16,3 +16,8 @@ rules:
   steps:
   - intent: Utah-Adult-Ed-Bot-Planning
   - action: utter_Utah-Adult-Ed-Bot-Planning
+
+- rule: faq-utah-adult-b1
+  steps:
+  - intent: faq-utah-adult-b1
+  - action: utter_faq-utah-adult-b1
